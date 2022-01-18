@@ -3,10 +3,17 @@ document.getElementById('modeBtn').addEventListener('click', function () {
   // document.getElementById('header').classList.toggle('dark');
   document.body.classList.toggle('dark');
   if (a == 0) {
-    this.textContent = 'Light mode';
+    this.textContent = 'Li';
     a++;
   } else {
-    this.textContent = 'Dark mode';
+    this.textContent = 'Da';
     a = 0;
   }
 });
+
+
+
+
+
+
+
